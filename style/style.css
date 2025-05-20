@@ -230,3 +230,9 @@ hr{
 .journey-section p{
   line-height: 1.5rem;
 }
+
+@media screen and (max-width: 767px) {
+  .journey-section{
+    margin: 10px ;
+  }
+}
