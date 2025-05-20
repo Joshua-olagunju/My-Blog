@@ -48,7 +48,7 @@ nav a:hover {
 .hero {
   text-align: center;
   padding: 4rem 1rem;
- background-image: url(../Images/thanos-pal-_NX-mwCy2C0-unsplash.jpg);
+background-image: url(../Images/hero_optimized.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ hr{
     margin: 10px ;
   }
   .story-section h1{
-    text-align: left;
+    text-align: left ;
   }
   br{
     display: none;
