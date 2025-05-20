@@ -201,6 +201,9 @@ hr{
     text-align: center;
     margin: 10px ;
   }
+  .story-section h1{
+    text-align: left;
+  }
   br{
     display: none;
   }
