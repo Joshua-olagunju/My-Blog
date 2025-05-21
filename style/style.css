@@ -436,9 +436,13 @@ hr {
   }
 
   .front-end-section img {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
+   width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    margin: 20px auto;
+    transition: transform 0.3s ease;
   }
 }
 
