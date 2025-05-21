@@ -235,6 +235,28 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
 }
+.image-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the image and button horizontally */
+  gap: 10px; /* Optional: adds space between image and button */
+}
+
+.image-link button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-link button:hover {
+  background-color: #005fa3;
+}
+
 
 /* Mobile Responsive */
 @media screen and (max-width: 767px) {
@@ -420,49 +442,44 @@ hr {
   }
 }
 
-
-
-.lessons-section {
+.reflection-section {
   text-align: left;
   margin: 80px;
 }
 
-.lessons-section h1 {
+.reflection-section h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.lessons-section p {
+.reflection-section p {
   line-height: 1.7;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
-.lessons-section blockquote {
+.reflection-section blockquote {
   font-style: italic;
-  background-color: #f9f9f9;
+  background-color: #f0f0f0;
   padding: 1rem;
-  border-left: 5px solid #00b894;
-  margin-top: 1.5rem;
-  font-size: 1rem;
+  border-left: 5px solid #6c5ce7;
+  margin: 1.5rem 0;
   color: #333;
 }
 
 @media screen and (max-width: 767px) {
-  .lessons-section {
+  .reflection-section {
     margin: 20px;
-    text-align: left;
   }
 
-  .lessons-section h1 {
+  .reflection-section h1 {
     font-size: 1.8rem;
   }
 
-  .lessons-section p {
-    font-size: 0.95rem;
-  }
-
-  .lessons-section blockquote {
+  .reflection-section p,
+  .reflection-section blockquote {
     font-size: 0.95rem;
   }
 }
+
+
