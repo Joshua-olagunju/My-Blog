@@ -536,6 +536,7 @@ hr {
   flex: 2;
   display: flex;
   justify-content: center;
+  color: #005fa3;
 }
 
 .footer-links div h4 {
