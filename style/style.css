@@ -202,9 +202,6 @@ hr{
   .story-section h1{
     text-align: left ;
   }
-  br{
-    display: none;
-  }
   hr{
     width: 100%;
   }
@@ -261,9 +258,6 @@ hr{
   .mobile-journey-section h1{
     text-align: left ;
       font-size: 2rem
-  }
-  br{
-    display: none;
   }
   .mobile-journey-section p{
   text-align: left;
