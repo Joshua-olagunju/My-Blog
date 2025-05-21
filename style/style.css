@@ -278,3 +278,26 @@ hr{
     height: 400px;
   }
 }
+
+.front-end-section{
+  text-align: left;
+  margin: 80px;
+}
+.front-end-section h1{
+  font-size: 2rem
+}
+.front-end-section p{
+  line-height: 1.5rem;
+}
+.front-end-section h3{
+  font-style: italic;
+}
+@media screen and (max-width: 767px) {
+  .front-end-section{
+    text-align: center;
+    margin: 10px ;
+  }
+  .front-end-section h1{
+    text-align: left ;
+  }
+}
