@@ -16,6 +16,7 @@ header {
   border-bottom: 1px solid #ddd;
   height: 50px;
   position: relative;
+  position: sticky;
 }
 
 header h1 {
